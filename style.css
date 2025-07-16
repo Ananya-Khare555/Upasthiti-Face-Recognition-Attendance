@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('p5.jpg');
+    background-size: cover;
+}
+
+header {
+    /*background-color: peachpuff;*/
+    color: black;
+    padding: 1rem;
+    opacity: 80%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: black;
+    text-decoration: double;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.greeting {
+    text-align: left;
+    font-size: 30px;
+    padding: 2rem;
+    color: darkblue;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 2rem;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: #8be8a1;
+    height: 13rem;
+    width: 32%; /* Adjust width as needed */
+    padding: 2rem;
+    margin: 1rem;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.quote-box {
+    background-color: white;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
